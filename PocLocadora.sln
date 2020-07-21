@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocLocadora", "PocLocadora\PocLocadora.csproj", "{95BBFFE9-449C-4088-9030-235B490BD2E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95BBFFE9-449C-4088-9030-235B490BD2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BBFFE9-449C-4088-9030-235B490BD2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BBFFE9-449C-4088-9030-235B490BD2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BBFFE9-449C-4088-9030-235B490BD2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52B0232E-A93B-4BD7-9DF7-67BD6D929BB6}
+	EndGlobalSection
+EndGlobal

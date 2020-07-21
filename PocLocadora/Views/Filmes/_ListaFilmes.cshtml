@@ -1,0 +1,49 @@
+﻿<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Gênero
+            </th>
+            <th>
+                Classificação
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @if (ViewBag.Filmes is null || ((IEnumerable<Filme>)ViewBag.Filmes).Count() <= 0)
+        {
+            <tr class="text-center">
+                <td colspan="4">
+                    Não há filmes cadastrados.
+                </td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in (IEnumerable<Filme>)ViewBag.Filmes)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Genero.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Classificacao)
+                    </td>
+                    <td class="text-right">
+                        <a class="btn">Detalhes</a>
+                        <a class="btn">Editar</a>
+                        <a class="btn">Excluir</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
